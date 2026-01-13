@@ -32,3 +32,16 @@ function openModal(title) {
 function closeModal() {
     document.getElementById("modal").style.display = "none";
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(() => {
+        console.log("Service Worker Registered");
+      })
+      .catch((error) => {
+        console.log("Service Worker Registration Failed:", error);
+      });
+  });
+}
