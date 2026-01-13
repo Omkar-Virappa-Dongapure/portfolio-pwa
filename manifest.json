@@ -1,0 +1,21 @@
+{
+  "name": "Omkar Portfolio",
+  "short_name": "Portfolio",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Personal portfolio PWA created during internship",
+  "icons": [
+    {
+      "src": "profilephoto.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "profilephoto.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
